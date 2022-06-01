@@ -1,0 +1,21 @@
+POST http://localhost:5000/api/shortner
+Content-Type: application/json
+
+{
+    "longUrl":"https://www.codegrepper.com/code-examples/sql/postgresql+add+days+to+date"
+}
+
+###
+
+POST http://localhost:5000/api/update
+Content-Type: application/json
+
+{
+    "shortUrl":"https://habuild.in/gwYNplFFu",
+    "days":"1"
+}
+
+###
+
+GET http://localhost:5000/destination/gwYNplFFu
+content-type: application/json
