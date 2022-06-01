@@ -8,7 +8,7 @@
     "dev": "nodemon index"
   },
   "keywords": [],
-  "author": "",
+  "author": "Priyanshu",
   "license": "ISC",
   "dependencies": {
     "config": "^3.3.7",

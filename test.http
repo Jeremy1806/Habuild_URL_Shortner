@@ -7,15 +7,16 @@ Content-Type: application/json
 
 ###
 
-POST http://localhost:5000/api/update
+POST http://localhost:5000/api/modify
 Content-Type: application/json
 
 {
-    "shortUrl":"https://habuild.in/gwYNplFFu",
+    "shortUrl":"https://habuild.in/dTqrZ_L5A",
     "days":"1"
 }
 
 ###
 
-GET http://localhost:5000/destination/gwYNplFFu
+
+GET http://localhost:5000/destination/dTqrZ_L5A
 content-type: application/json
